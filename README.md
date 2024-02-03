@@ -3,7 +3,7 @@ Raspy is a modified language based on python and runs on its code. The interpret
 
 # Requierments
 
-● RPi.GPIO\n
-● Random\n
-● Time\n
-● A raspberry pi\n
+● RPi.GPIO \n
+● Random \n
+● Time \n
+● A raspberry pi \n
