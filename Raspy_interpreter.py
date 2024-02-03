@@ -6,13 +6,12 @@ import math
 variables = {}
 gpio_pins = {}
 
-def execute_gpio(keyword, *args):
+def execute_gpio(keyword, *args, state):
     if keyword == 'setup':
         pin = int(args[0])
-        mode = args[1]
-        if mode == 'input':
+        if state == 'input':
             GPIO.setup(pin, GPIO.IN)
-        elif mode == 'output':
+        elif state == 'output':
             GPIO.setup(pin, GPIO.OUT)
 
     elif keyword == 'high':
