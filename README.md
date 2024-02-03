@@ -4,6 +4,8 @@ Raspy is a modified language based on python and runs on its code. The interpret
 # Requierments
 
 
+
+
 ● RPi.GPIO
 ● Random
 ● Time
